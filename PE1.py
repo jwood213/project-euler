@@ -10,6 +10,6 @@ print("Find the sum of all the multiples of 3 or 5 below 1000.")
 
 n = 0
 for i in range (1, 1000):
-	if not i % 5 or not i % 3:
+	if i%5==0 or i%3==0:
 		n = n + i
 print(n)
